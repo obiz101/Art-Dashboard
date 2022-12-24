@@ -1,0 +1,129 @@
+<div class="ad">
+   <img src="dist/img/Lil Wayne cartoon style.jfif" alt="">
+   <div class="text">
+      <h2>Discover, Buy, Sell Your <br> Art and NFT's</h2>
+      <p class="mute">
+         Grafik. Grafik brings artist, creators and investors together on a single platform.
+      </p>
+      <div class="btns">
+         <button class="btn primary">Discover Now</button>
+         <button class="btn">Create Yours</button>
+      </div>
+   </div>
+</div>
+
+<div>
+   <input type="file" id="upload" accept="image/png, image/jpeg, image/jfif, image/webp, image/jpeg">
+   <label for="upload" class="btn primary">upload photo</label>
+</div>
+
+<div class="trending">
+   <div>
+      <div class="user">
+         <img src="dist/img/users/daniil-lobachev.jpg" alt="">
+         <div class="handle">
+            <h3>daniil lobachev</h3>
+            <small class="mute">@lobachev <i class="hi hi-check-circle primary"></i></small>
+         </div>
+      </div>
+      <button class="btn primary">Follow</button>
+   </div>
+   <div>
+      <div class="user">
+         <img src="dist/img/users/grace.jpg" alt="">
+         <div class="handle">
+            <h3>Grace Valentine</h3>
+            <small class="mute">@valentine <i class="hi hi-check-circle primary"></i></small>
+         </div>
+      </div>
+      <button class="btn primary">Follow</button>
+   </div>
+   <div>
+      <div class="user">
+         <img src="dist/img/users/josh.jpeg" alt="">
+         <div class="handle">
+            <h3>joshua iroh</h3>
+            <small class="mute">@joshua <i class="hi hi-check-circle primary"></i></small>
+         </div>
+      </div>
+      <button class="btn primary">Follow</button>
+   </div>
+   <div>
+      <div class="user">
+         <img src="dist/img/users/ivan.jpg" alt="">
+         <div class="handle">
+            <h3>ivan Rogers</h3>
+            <small class="mute">@ivan360 <i class="hi hi-check-circle primary"></i></small>
+         </div>
+      </div>
+      <button class="btn primary">Follow</button>
+   </div>
+   <div>
+      <div class="user">
+         <img src="dist/img/users/oso.jpg" alt="">
+         <div class="handle">
+            <h3>Ososinesme Kari</h3>
+            <small class="mute">@oso_kari <i class="hi hi-check-circle primary"></i></small>
+         </div>
+      </div>
+      <button class="btn primary">Follow</button>
+   </div>
+
+   .trending {
+      margin-bottom: 3rem;
+      >div {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         border-bottom: 1px solid var(--grey);
+         padding: 1rem 0;
+         .user {
+            display: flex;
+            gap: 1rem;
+
+            h3 {
+               text-transform: capitalize;
+            }
+
+            small {
+               display: flex;
+               align-items: center;
+               gap: 3px;
+            }
+         }
+         button{
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+         }
+      }
+
+   }
+
+   .right {
+      margin: 0;
+      // .top{
+      //    position: fixed;
+      //    left: 0;
+      //    top: 0;
+      //    z-index: 2;
+      //    background: var(--white);
+      //    width: 100%;
+      //    height: 4rem;
+      //    justify-content: space-between;
+      //    align-items: center;
+      //    padding: var(--card-padding);
+      //    .user{
+      //       width: max-content;
+      //       padding: 0;
+      //       h3, i{
+      //          display: none;
+      //       }
+      //    }
+      // }
+      // .menu {
+      //    display: flex;
+      // }
+   }
+
+</div>
